@@ -31,4 +31,5 @@ float j=30-b;
 
 printf("\n\n-----CURRENT STATUS------\n\n\n Current Day : %.1f\n\n Total Data : %.2f GBs\n\n Data Usage Average : %.2f GBs Per Day \n\n\n",b,a,g);
 
+printf("------YOUR STATUS-------\n\n\n Data Used : %.2f GBs\n\n Remaning Data : %.2f GBs\n\n Remaning Days : %.1f Days\n\n Your Data Usage Average of %.1f Days : %.2f GBs Per Day\n\n\n",c,rd,j,b,avg);
 }
