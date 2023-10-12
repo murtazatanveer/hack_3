@@ -58,8 +58,8 @@ printf(" \n\nYou have already met your limit for this month.  Looks like you're 
 else if(g>=avg){
   	
 float l=rd/j;
-  printf("\n\n.............A L E R T...............\n\n");
-  	
+printf("\n\n.............A L E R T...............\n\n");
+printf(" You are at or below your average daily use of %.2f GBs Per Day.\n\n You can use up to %.2f GBs Per Day and stay below your data plan limit.\n\n",g,l);
     
     }
 
