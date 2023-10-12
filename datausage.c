@@ -24,5 +24,8 @@ scanf("%f",&c);
 float g=a/30;
 float rd=a-c;
 
+float avg= c/b;
+
+
 
 }
