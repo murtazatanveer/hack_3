@@ -29,6 +29,6 @@ float avg= c/b;
 float f=a/30;
 float j=30-b;
 
-
+printf("\n\n-----CURRENT STATUS------\n\n\n Current Day : %.1f\n\n Total Data : %.2f GBs\n\n Data Usage Average : %.2f GBs Per Day \n\n\n",b,a,g);
 
 }
