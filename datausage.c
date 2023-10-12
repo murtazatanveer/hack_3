@@ -17,6 +17,9 @@ float b;
 printf("\n\n The current day in the 30 day period : ");
 scanf("%f",&b);
 
+float c;
+printf("\n\n The total number of GBs used so far : ");
+scanf("%f",&c);
 
 
 
