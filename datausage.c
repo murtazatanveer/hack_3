@@ -13,21 +13,9 @@ float a;
 printf("\n\n Enter number of GBs in the plan per 30 day period : ");
 scanf("%f",&a);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+float b;
+printf("\n\n The current day in the 30 day period : ");
+scanf("%f",&b);
 
 
 
