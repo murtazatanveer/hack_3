@@ -21,6 +21,8 @@ float c;
 printf("\n\n The total number of GBs used so far : ");
 scanf("%f",&c);
 
+float g=a/30;
+float rd=a-c;
 
 
 }
