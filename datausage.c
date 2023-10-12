@@ -35,11 +35,13 @@ printf("------YOUR STATUS-------\n\n\n Data Used : %.2f GBs\n\n Remaning Data : 
 
 
 if(avg>g){
-    
+
 float h=avg*30;
 float i = rd/j;
 printf("\n\n.............A L E R T...............\n\n");
 
+printf(" You are EXCEEDING your average daily use of %.2f GBs Per Day.\n\n Continuing this high usage, you'll exceed your data plan by %.2f GBs.\n\n",g,h);	
+printf(" To stay below your data plan, use no more than %.2f GBs Per Day.",i);
 
 
 }
