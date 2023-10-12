@@ -63,5 +63,7 @@ printf(" You are at or below your average daily use of %.2f GBs Per Day.\n\n You
     
     }
 
+return 0;
+
 
 }
