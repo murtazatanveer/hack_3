@@ -51,8 +51,6 @@ else if(c>=a){
  	
  	printf("\n\n.............A L E R T...............\n\n");
 
-
-
-
+printf(" \n\nYou have already met your limit for this month.  Looks like you're getting some overage charges...");
 
 }
