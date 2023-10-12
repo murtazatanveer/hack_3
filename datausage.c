@@ -26,6 +26,9 @@ float rd=a-c;
 
 float avg= c/b;
 
+float f=a/30;
+float j=30-b;
+
 
 
 }
