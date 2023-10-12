@@ -47,6 +47,11 @@ printf(" To stay below your data plan, use no more than %.2f GBs Per Day.",i);
 }
 
 
+else if(c>=a){
+ 	
+ 	printf("\n\n.............A L E R T...............\n\n");
+
+
 
 
 
