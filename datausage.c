@@ -1,25 +1,35 @@
 #include<stdio.h>
-int main(){
+#include<stdlib.h>
+
+int main(int argc, char **argv){
 
 
 // Made by : Murtaza Tanveer
 //Reg No   : SP23-BSE-096-2C
 
 
+
 printf("\nMade by : MURTAZA TANVEER\nReg no  : SP23-BSE-096-2C");
 printf("\n\n____________________WELCOME TO MOBILE DATA USAGE TRACKER___________________\n\n\n");
+ 
+ // I CHANGE THE PROGRAM AND GIVE INPUTS USING COMMAND LINE ARGUEMENT 
 
-float a;
-printf("\n\n Enter number of GBs in the plan per 30 day period : ");
-scanf("%f",&a);
+if(argc == 4){
 
-float b;
-printf("\n\n The current day in the 30 day period : ");
-scanf("%f",&b);
+float a = atof(argv[1]);
 
-float c;
-printf("\n\n The total number of GBs used so far : ");
-scanf("%f",&c);
+//printf("\n\n Enter number of GBs in the plan per 30 day period : ");
+//scanf("%f",&a);
+
+float b = atof(argv[2]) ;
+
+//printf("\n\n The current day in the 30 day period : ");
+//scanf("%f",&b);
+
+float c = atof(argv[3]); 
+
+//printf("\n\n The total number of GBs used so far : ");
+//scanf("%f",&c);
 
 float g=a/30;
 float rd=a-c;
@@ -63,6 +73,11 @@ printf(" You are at or below your average daily use of %.2f GBs Per Day.\n\n You
     
     }
 
+}
+
+else{
+    printf("\n\nERROR! Please give correct command line arguement");
+}
 return 0;
 
 
